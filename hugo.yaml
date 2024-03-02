@@ -2,3 +2,33 @@ baseURL: http://algorithmictales.com/
 languageCode: en-us
 title: Algorithmic Tales
 theme: ["PaperMod"]
+
+taxonomies:
+  category: categories
+  tag: tags
+
+menu:
+  main:
+    - identifier: categories
+      name: Posts
+      url: /posts/
+      weight: 10
+
+    - identifier: Tags
+      name: tags
+      url: /tags/
+      weight: 20
+
+params:
+  profileMode:
+    enabled: true
+    title: "Algorithmic Tales" 
+    subtitle: "Mathematical Musings and Code Chronicles"
+    imageUrl: /logo.png 
+    imageTitle: "purple smiley face"
+    imageWidth: 120 # custom size
+    imageHeight: 120 # custom size
+    buttons:
+      - name: Posts
+        url: "/posts"
+
