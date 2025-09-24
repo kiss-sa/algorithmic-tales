@@ -1,0 +1,77 @@
+:root {
+    --color-background: #F1F5F1; 
+    --color-background-light: #f7f9f7; 
+
+    --color-primary-100:  #de6b10;
+    --color-primary-200:  #fc8f44;
+    --color-primary-300:  #ff9d5b;
+    --color-primary-400:  #ffab72;
+    --color-primary-500:  #ffb989;
+    --color-primary-600:  #ffc7a0;
+ 
+    --color-secondary-100:  #db4753;
+    --color-secondary-200:  #e25f64;
+    --color-secondary-300:  #e97576;
+    --color-secondary-400:  #ee8988;
+    --color-secondary-500:  #f39d9b;
+    --color-secondary-600:  #f7b1ae;
+ 
+    --color-tertiary-100:  #5b85aa;
+    --color-tertiary-200:  #6e92b3;
+    --color-tertiary-300:  #809fbd;
+    --color-tertiary-400:  #92acc6;
+    --color-tertiary-500:  #a4b9cf;
+    --color-tertiary-600:  #b6c7d9;
+  
+    --color-surface-100:  #1e2838;
+    --color-surface-200:  #343c4b;
+    --color-surface-300:  #4a5260;
+    --color-surface-400:  #626875;
+    --color-surface-500:  #7a7f8a;
+    --color-surface-600:  #9398a1;
+ 
+    --color-surface-mixed-100:  #363039;
+    --color-surface-mixed-200:  #49444c;
+    --color-surface-mixed-300:  #5e5960;
+    --color-surface-mixed-400:  #736e75;
+    --color-surface-mixed-500:  #89858b;
+    --color-surface-mixed-600:  #9f9ca1;
+
+    --gap: 24px;
+    --content-gap: 20px;
+    --nav-width: 1024px;
+    --main-width: 720px;
+    --header-height: 60px;
+    --footer-height: 60px;
+    --radius: 8px;
+    --theme: var(--color-background);
+    --entry: white;
+    --primary: var(--color-primary-100);
+    --secondary: var(--color-surface-100);
+    --tertiary: var(--color-background-light);
+    --content: var(--color-surface-100);
+    --code-block-bg: var(--color-surface-mixed-100);
+    --code-bg: var(--color-background);
+    --border: rgb(238, 238, 238);              
+ 
+}
+
+.dark {
+    --theme: var(--color-surface-100);
+    --entry: var(--color-surface-200);
+    --primary: var(--color-primary-400);
+    --tertiary: var(--color-surface-200);
+    --secondary: var(--color-tertiary-500);
+    --content: var(--color-tertiary-500);
+    --code-block-bg: rgb(46, 46, 51);
+    --code-bg: rgb(55, 56, 62);
+    --border: rgb(51, 51, 51);
+}
+
+.list {
+    background: var(--code-bg);
+}
+
+.dark.list {
+    background: var(--theme);
+}

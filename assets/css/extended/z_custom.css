@@ -1,0 +1,33 @@
+@font-face {
+    font-family: "Meditative";
+    src: local(""),
+    url('/fonts/Meditative.otf') format('otf'),
+    url('/fonts/Meditative.ttf') format('truetype'),
+    ;
+}
+
+.page-header h1 {
+    font-size: 32px;
+    font-family: "Meditative"
+}
+
+.profile_inner h1 {
+    font-family: "Meditative"
+}
+
+.profile_inner button {
+    background: #9398a1;
+}
+
+
+.entry-header {
+    font-family: "Meditative"
+}
+
+.entry-hint-parent {
+    font-family: "Meditative"
+}
+
+.logo {
+    font-family: "Meditative"
+}

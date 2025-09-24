@@ -10,25 +10,53 @@ taxonomies:
 menu:
   main:
     - identifier: categories
-      name: Posts
+      name: posts
       url: /posts/
       weight: 10
 
-    - identifier: Tags
+    - identifier: recipes
+      name: recipes
+      url: /recipes/
+      weight: 10
+
+    - identifier: tags
       name: tags
       url: /tags/
       weight: 20
 
+    - identifier: about
+      name: about
+      url: /about/
+      weight: 30
+
+markup:
+  goldmark:
+    extensions:
+      passthrough:
+        delimiters:
+          block:
+            - - \[
+              - \]
+            - - $$
+              - $$
+          inline:
+            - - \(
+              - \)
+            - - $
+              - $
+        enable: true
+
 params:
+  math: true
   profileMode:
     enabled: true
-    title: "Algorithmic Tales" 
+    title: "Algorithmic Tales"
     subtitle: "Mathematical Musings and Code Chronicles"
-    imageUrl: /logo.png 
+    imageUrl: /logo.png
     imageTitle: "purple smiley face"
     imageWidth: 120 # custom size
     imageHeight: 120 # custom size
     buttons:
-      - name: Posts
+      - name: posts
         url: "/posts"
-
+    ShowBreadCrumbs: true
