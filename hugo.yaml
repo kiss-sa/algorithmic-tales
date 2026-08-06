@@ -51,7 +51,7 @@ params:
   profileMode:
     enabled: true
     title: "Algorithmic Tales"
-    subtitle: "Mathematical Musings and Code Chronicles"
+    subtitle: "Notes from an open Notebook: proofs, code, dice rolls, and bread that doesn't always rise"
     imageUrl: /logo.png
     imageTitle: "purple smiley face"
     imageWidth: 120 # custom size

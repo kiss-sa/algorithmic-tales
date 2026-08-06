@@ -9,6 +9,7 @@
     --color-primary-500:  #ffb989;
     --color-primary-600:  #ffc7a0;
  
+    /* signal coral: the logo's ":)" color. Sparing use only - tags, small accents. */
     --color-secondary-100:  #db4753;
     --color-secondary-200:  #e25f64;
     --color-secondary-300:  #e97576;
@@ -52,8 +53,9 @@
     --content: var(--color-surface-100);
     --code-block-bg: var(--color-surface-mixed-100);
     --code-bg: var(--color-background);
-    --border: rgb(238, 238, 238);              
- 
+    --border: rgb(238, 238, 238);
+    --accent: var(--color-secondary-100);
+
 }
 
 .dark {
@@ -66,6 +68,7 @@
     --code-block-bg: rgb(46, 46, 51);
     --code-bg: rgb(55, 56, 62);
     --border: rgb(51, 51, 51);
+    --accent: var(--color-secondary-400);
 }
 
 .list {
